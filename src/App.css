@@ -1,10 +1,73 @@
+body {
+  background-color: black;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tarot {
+  align-content: center;
+  justify-content: center;
+  margin-left: 5vw;
+  margin-top: 5vh;
+  width: 90vw;
+}
+
+.descBox {
+  border: 1px solid white;
+  box-shadow: 5px 5px 0px white;
+  margin-bottom: 50px;
+}
+
+.title {
+  color: white;
+  font-size: 26px;
+  text-shadow: 1px 1px rgb(238, 80, 106);
+}
+
+.cardButton {
+  background-color: black;
+  border: 1px solid rgb(252, 229, 26);
+  box-shadow: 2px 2px 0px rgb(252, 229, 26);
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+}
+
+.cardName {
+  color: white;
+  font-size: 24px;
+  margin-top: 4vh;
+  text-shadow: 1px 1px green;
+}
+
+.cardDesc {
+  color: white;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media (min-width: 800px) {
+  .tarot {
+    margin-left: 20vw;
+    margin-top: 15vh;
+    width: 60vw;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .cardName {
+    font-size: 30px;
+  }
+
+  .cardDesc {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference) {
